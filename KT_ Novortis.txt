@@ -1,0 +1,73 @@
+RAMYA KT- 24-Sep-2018 
+
+4 types of doc
+urs- jayant(tech leads)user requirement 
+FS-Flow chart -get approved - developers create
+fsds-will be explained later
+TS- Test Execution- DEvelopers create (service line) demo meeting
+IQ-will be explained later
+
+
+
+Oracle runbook
+
+-add or extend the datafile for the table space
+
+	Requirements:
+		-remediation target
+		-tablespace name
+	Remidiation flow
+
+	check type of OS
+	datABASE CONNECTIVITY
+		check oracle home value
+		DB port - DNS.names.ora(default 1521 port)
+		more than 1 port -list iterartor
+		check tablespace if native
+---------------------------------------------------------------------------------------------------------------
+
+
+5-Oct-2018
+
+SVN
+ORACLE listener status run book
+
+creating a branch:
+
+	goto the worspace in the file sys. Right click on the folder. 
+	click on branch/tag
+	
+
+ORACLE listener status run book:
+	
+
+agile methodology
+assign run book by sachin
+JIRA id by sachin or reshma
+
+collect req
+urs sign off before starting dev
+installation meeting - var discussion
+groomin session
+dev runbook
+
+commit run book in svn
+get content pack in dev
+onboard on servers if fully automated
+	need to take content pack and deploy in centtral
+	after testing deploy in QA
+	exe IQ -APM team will do
+	Execute TS in QA
+	tollgate review-Kokila wil arrange
+	onboard servers in prod sitescope
+	need to raise CRQ to move CP in prod
+	execute IQ
+	execute IQ
+	execute UAT
+	srinivas will runnbook to Prod
+
+
+
+
+
+		
